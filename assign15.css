@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#854dee;
+}
+.upper-head{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    margin: 25px 0 0 25px;
+}
+.nav{
+    padding-right: 40px;
+}
+.nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 20px;
+    display: block;
+}
+.text-box{
+    text-align: center;
+    width: auto;
+    height: 300px;
+    padding-top: 100px;
+}
+.text-box h1{
+    color: #fff;
+    font-size: 45px;
+}
+.text-box p{
+    margin: 20px 0 0 0;
+    display: inline-block;
+    color: rgb(243, 237, 237);
+}
+.container{
+    width: auto;
+    margin: 0 60px;
+}
+.common-box{
+    display: flex;
+    justify-content: space-between;
+}
+.box1 .left-box, .box2 .right-box , .box3 .left-box, .box2 .left-box , .box4 .left-box , .box4 .right-box , .box5 .left-box , .box5 .right-box{
+    width: 50%;
+    padding-top: 60px;
+}
+.box1 .left-box h1, .box2 .right-box h1 ,.box3 .left-box h1 ,.box4 .right-box h1 , .box5 .left-box h1{
+    width: 80%;
+    color: black;
+    margin: 20px 0;
+}
+.box1 .left-box p , .box2 .right-box p, .box3 .left-box p, .box4 .right-box p , .box5 .left-box p{
+    width: 90%;
+    text-align: justify;
+}
+.box1 .right-box, .box3 .right-box, .box5 .right-box{
+    width: 50%;
+    padding-top: 60px;
+    display: flex;
+    justify-content: end;
+}
+.box4 .right-box a{
+    padding: 8px;
+    background-color: #854dee;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+footer{
+    background-image: linear-gradient(to bottom, rgb(243, 242, 242), white);
+    margin-top: 50px;
+}
+.ftr-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.ftr-content ul li{
+    list-style-type: none;
+}
+.ftr-content ul li a{
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgba(37, 36, 36, 0.897);
+}
+.ftr1{
+    flex-basis: 30%;
+}
+.ftr1 p{
+    width: 90%;
+}
+.about-us, .workflow{
+    flex-basis: 23.3%;
+}
+.ftr1 img{
+    margin-bottom: 20px;
+}
+.ftr1 p{
+    line-height: 22px;
+}
+.bg-pic{
+    background-image: url("./images/footer_bg.png");
+    background-size: cover;
+    width: auto;
+    height: 300px;
+    padding: 100px;
+}
